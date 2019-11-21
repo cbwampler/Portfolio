@@ -4,43 +4,107 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Carolyn Wampler's Portfolio</title>
+    <title>Carolyn Wampler</title>   
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    </head>
+    <link href="https://fonts.googleapis.com/css?family=Notable&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='style.css'
+</head>
 <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                        </li>
-                    </ul>
-                </div>
-        </nav>
-
-        <div class="jumbotron">
-            <h1 class="display-4">Hello, world!</h1>
-                <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-            <hr class="my-4">
-                <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+<div class="navbar-container">
+    <nav class="navbar navbar-expand-md navbar-light">
+            <a class="navbar-brand" href="#">Welcome to My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Contact">Resume</a>
+                </li>
+            </ul>
+            </div>
+    </nav>  
+</div>
+<header class="jumbotron jumbotron-fluid">
+        <div class="container-fluid text-center">
+            <h1 id="name">Carolyn Wampler</h1>
+            <h5 id="title">Always looking for a challenging, rewarding experience</h5>
+            <br>
+            <img class="img-fluid" src="img/wamplerCarolyn.jpg" alt="">
+            <br>
+            <p><a href="#" class="btn btn-primary btn-lg" role="button">About Me</a></p>
         </div>
+</header>  
+
+<section id="about" class="about">
+    <h2 class="display-5 text-center mt-5 mb-3">About Me</h2>
+    <p class="lead pb-3"> A little bit about me:  I've been in the tech industry for over 25 years.  I am a mother of three children, John, Abbi and Megan.  My husband is Doug and we've been together for over 24 year.  </p>
+</section>
+
+<section id="projects" class="projects">
+    <h2 class="display-5 text-center mt-5 mb-3">My Projects</h2>
+        
+<div class="row text-center">
+    <div class="col-md-4 mb-4">
+        <div class="card h-100">
+            <img class="card-img-top" src="img/css_creature.png" alt="My CSS Creature">
+        <div class="card-body">
+            <h4 class="card-title">CSSCreature</h4>
+                <p> Our first project was to create a simple HTML/CSS drawing project.  This is my dog, "Buddy"!</p>
+
+        </div>
+        <div class="card-footer py4">
+            <a href="https://codepen.io/cwampler/full/JjjWzMj" class="btn btn-secondary">See Creature &raquo;</a>
+        </div>
+    </div>
+</div>
+
+
+<div class="col-md-4 mb-4">
+    <div class="card h-100">
+        <img class="card-img-top" src="img/tutorial.png" alt="My Tutorial Page">
+    <div class="card-body">
+        <h4 class="card-title">Tutorial Website</h4>
+            <p> Our second project was to create a tutorial page about JavaScript </p>
+    </div>
+    <div class="card-footer py4">
+        <a href="https://cbwampler.github.io/Tutorial/" class="btn btn-secondary">See Tutorial Page &raquo;</a>
+    </div>
+</div>
+</div>    
+            
+<div class="col-md-4 mb-4">
+    <div class="card h-100">
+        <img class="card-img-top" src="design.jpg" alt="My API Project">
+    <div class="card-body">
+        <h4 class="card-title">API Project</h4>
+            <p>The API project was our third, and final, project for the gold badge portion of the program.</p>
+    </div>
+    <div class="card-footer py4">
+        <a href="#" class="btn btn-secondary">See portfolio &raquo;</a>
+    </div>
+    </div>
+</div>  
+</div>    
+</section>
+<section class="contact text-center py-4 mt-4" id="contact">
+    <h2 class="display-6 pb-6 my-6"> Get in touch with me today!</h2>
+    <p class="lead pb-3">Send me a message.  I'd love to talk with you about my experience and how I can contribute to your team!</p>
+    <a href="#" class="btn btn-primary btn-lg mb-4" role="button">Contact Me</a>
+</section>
+<footer class="footer text-center py-4 mt-4">
+        <p><b>Carolyn Wampler 2019</b></p>
+    </div>
+</footer>
 
 </body>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </html>
