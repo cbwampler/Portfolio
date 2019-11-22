@@ -6,29 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Carolyn Wampler</title>   
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Notable&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Notable|Parisienne|Sansita&display=swap" rel="stylesheet">
     <link rel='stylesheet' href='style.css'
 </head>
 <body>
 <div class="navbar-container">
-    <nav class="navbar navbar-expand-md navbar-light">
+    <nav class="navbar navbar-expand-md navbar-light" style="color: whitesmoke;">
             <a class="navbar-brand" href="#">Welcome to My Portfolio</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
             <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#"></a>
+                    <a class="nav-link" href="#contact">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#projects">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#Contact">Resume</a>
+                    <a class="nav-link" href="https://drive.google.com/file/d/1DPXYwqTGnjPnzDtkHhYNMdWi_jfMPdNO/view?usp=sharing">Resume</a>
                 </li>
             </ul>
             </div>
@@ -37,7 +31,7 @@
 <header class="jumbotron jumbotron-fluid">
         <div class="container-fluid text-center">
             <h1 id="name">Carolyn Wampler</h1>
-            <h5 id="title">Always looking for a challenging, rewarding experience</h5>
+            <h5 id="title">Looking to continue my career in a position that allows me to use my skills, talent, and values and continue to grow as a valuable asset in a development team</h5>
             <br>
             <img class="img-fluid" src="img/wamplerCarolyn.jpg" alt="">
             <br>
@@ -46,62 +40,67 @@
 </header>  
 
 <section id="about" class="about">
-    <h2 class="display-5 text-center mt-5 mb-3">About Me</h2>
-    <p class="lead pb-3"> A little bit about me:  I've been in the tech industry for over 25 years.  I am a mother of three children, John, Abbi and Megan.  My husband is Doug and we've been together for over 24 year.  </p>
+    <h2 class="display-5 text-center">About Me</h2>
+    <p class="lead pb-3">
+        <ul>
+            <li>Over 25 years' experience in the technology field working as a Sofware Test Engineer which has given me exposure to several software and hardware platforms</li>
+            <li>Proficient in both Windows and Macintosh Operating Systems</li>
+            <li>Proficient in both premis and web-based platforms</li>
+            <li>Currently attending Eleven Fifty Academy for Javascript Programming</li>
+            <li>Wife to Doug and mother to three children, John, Abbi and Megan</li>
+            <li>Hobbies include photography and papercrafting</li>
+        <p>For more details of my qualifications, see my attached resume or contact me at the link below</p>   
 </section>
 
 <section id="projects" class="projects">
-    <h2 class="display-5 text-center mt-5 mb-3">My Projects</h2>
-        
-<div class="row text-center">
-    <div class="col-md-4 mb-4">
-        <div class="card h-100">
-            <img class="card-img-top" src="img/css_creature.png" alt="My CSS Creature">
-        <div class="card-body">
-            <h4 class="card-title">CSSCreature</h4>
-                <p> Our first project was to create a simple HTML/CSS drawing project.  This is my dog, "Buddy"!</p>
+        <h2 class="text-center">My Projects</h2> 
+        <p class="lead pb-3">
+            Here are a few projects I have done to show what I have learned:
+        </p>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card text-center" style="width: 18rem; height:25rem;">
+                    <img class="card-img-top" src="img/css_creature.png" alt="My CSS Creature">
+                    <div class="card-body">
+                        <h5 class="card-title">CSS Creature</h5>
+                        <p class="card-text">Our first project was to create a simple HTML/CSS drawing.</p>
+                        <a href="https://codepen.io/cwampler/full/JjjWzMj" class="btn btn-primary">Go to my CSS Project</a>
+                    </div>
+                </div>
+            </div>   
 
-        </div>
-        <div class="card-footer py4">
-            <a href="https://codepen.io/cwampler/full/JjjWzMj" class="btn btn-secondary">See Creature &raquo;</a>
-        </div>
-    </div>
-</div>
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem; height:25rem;">
+                    <img class="card-img-top" src="img/tutorial.png" alt="My Tutorial Page">
+                    <div class="card-body">
+                    <h5 class="card-title">Tutorial Page</h5>
+                    <p class="card-text">Our second project was to create a tutorial page about JavaScript</p>
+                    <a href="https://cbwampler.github.io/Tutorial/" class="btn btn-primary">Go to my Tutorial Page</a>
+                    </div>
+                </div>
+            </div>
 
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem; height:25rem;">
+                    <img class="card-img-top" src=" " alt="My API Project">
+                <div class="card-body">
+                    <h5 class="card-title">Tutorial Page</h5>
+                    <p class="card-text">Our third, and final, project for the gold badge section was to get date from an API</p>
+                    <a href="" class="btn btn-primary">Go to my API Project</a>
+                    </div>
+                </div>
+                </div>
+            </div>
 
-<div class="col-md-4 mb-4">
-    <div class="card h-100">
-        <img class="card-img-top" src="img/tutorial.png" alt="My Tutorial Page">
-    <div class="card-body">
-        <h4 class="card-title">Tutorial Website</h4>
-            <p> Our second project was to create a tutorial page about JavaScript </p>
-    </div>
-    <div class="card-footer py4">
-        <a href="https://cbwampler.github.io/Tutorial/" class="btn btn-secondary">See Tutorial Page &raquo;</a>
-    </div>
-</div>
-</div>    
-            
-<div class="col-md-4 mb-4">
-    <div class="card h-100">
-        <img class="card-img-top" src="design.jpg" alt="My API Project">
-    <div class="card-body">
-        <h4 class="card-title">API Project</h4>
-            <p>The API project was our third, and final, project for the gold badge portion of the program.</p>
-    </div>
-    <div class="card-footer py4">
-        <a href="#" class="btn btn-secondary">See portfolio &raquo;</a>
-    </div>
-    </div>
-</div>  
-</div>    
 </section>
-<section class="contact text-center py-4 mt-4" id="contact">
-    <h2 class="display-6 pb-6 my-6"> Get in touch with me today!</h2>
+
+<section class="contact text-center" id="contact">
+    <h2 class="display-6"> Get in touch with me today!</h2>
     <p class="lead pb-3">Send me a message.  I'd love to talk with you about my experience and how I can contribute to your team!</p>
     <a href="#" class="btn btn-primary btn-lg mb-4" role="button">Contact Me</a>
 </section>
-<footer class="footer text-center py-4 mt-4">
+<footer class="footer text-center">
         <p><b>Carolyn Wampler 2019</b></p>
     </div>
 </footer>
