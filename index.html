@@ -7,14 +7,14 @@
     <title>Carolyn Wampler</title>   
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Notable|Parisienne|Sansita&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1032576907.js" crossorigin="anonymous"></script>
     <link rel='stylesheet' href='style.css'
 </head>
 <body>
 <div class="navbar-container">
     <nav class="navbar navbar-expand-md navbar-light" style="color: whitesmoke;">
-            <a class="navbar-brand" href="#">Welcome to My Portfolio</a>
-            <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
+            <a class="navbar-brand" href="#" style="color:whitesmoke;">Welcome to My Portfolio</a>
+                    <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact</a>
                 </li>
@@ -22,37 +22,43 @@
                     <a class="nav-link" href="#projects">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://drive.google.com/file/d/1DPXYwqTGnjPnzDtkHhYNMdWi_jfMPdNO/view?usp=sharing">Resume</a>
+                    <a class="nav-link" href="img/CBWamplerResume.pdf">Resume</a>
                 </li>
             </ul>
             </div>
     </nav>  
 </div>
-<header class="jumbotron jumbotron-fluid">
-        <div class="container-fluid text-center">
+<header class="jumbotron jumbotron">
+        <div class="container text-center">
             <h1 id="name">Carolyn Wampler</h1>
-            <h5 id="title">Looking to continue my career in a position that allows me to use my skills, talent, and values and continue to grow as a valuable asset in a development team</h5>
-            <br>
+            <h3 id="title">Looking to continue my career in a position that allows me to use my skills, talent, and values while continuing to grow as a valuable asset in a development team</h3>
             <img class="img-fluid" src="img/wamplerCarolyn.jpg" alt="">
-            <br>
-            <p><a href="#" class="btn btn-primary btn-lg" role="button">About Me</a></p>
+<br>
+<br>
+<div class="btn-group" role="group" aria-label="Basic example">
+    <button type="button" class="btn btn-primary btn-lg" href="#about" data-toggle="collapse" role="button">About Me</button>
+    <button type="button" class="btn btn-primary btn-lg" href="#projects" data-toggle="collapse" role="button">My Projects</button>
+    <button type="button" class="btn btn-primary btn-lg" href="#contact" data-toggle="collapse" role="button">Contact Me</button>
+</div>            
+            <!-- <p><a href="#about" class="btn btn-primary btn-lg" data-toggle="collapse" role="button">About Me</a></p>
+            <p><a href="#projects" class="btn btn-primary btn-lg" data-toggle="collapse" role="button">My Projects</a></p> -->
         </div>
 </header>  
 
-<section id="about" class="about">
+<section id="about" class="about collapse">
     <h2 class="display-5 text-center">About Me</h2>
     <p class="lead pb-3">
         <ul>
             <li>Over 25 years' experience in the technology field working as a Sofware Test Engineer which has given me exposure to several software and hardware platforms</li>
             <li>Proficient in both Windows and Macintosh Operating Systems</li>
-            <li>Proficient in both premis and web-based platforms</li>
+            <li>Proficient in both premise and web-based platforms</li>
             <li>Currently attending Eleven Fifty Academy for Javascript Programming</li>
             <li>Wife to Doug and mother to three children, John, Abbi and Megan</li>
             <li>Hobbies include photography and papercrafting</li>
         <p>For more details of my qualifications, see my attached resume or contact me at the link below</p>   
 </section>
 
-<section id="projects" class="projects">
+<section id="projects" class="projects collapse">
         <h2 class="text-center">My Projects</h2> 
         <p class="lead pb-3">
             Here are a few projects I have done to show what I have learned:
@@ -83,9 +89,9 @@
 
             <div class="col-md-4">
                 <div class="card" style="width: 18rem; height:25rem;">
-                    <img class="card-img-top" src=" " alt="My API Project">
+                    <img class="card-img-top" src="img/coming_soon.png " alt="My API Project">
                 <div class="card-body">
-                    <h5 class="card-title">Tutorial Page</h5>
+                    <h5 class="card-title">API Project</h5>
                     <p class="card-text">Our third, and final, project for the gold badge section was to get date from an API</p>
                     <a href="" class="btn btn-primary">Go to my API Project</a>
                     </div>
@@ -95,15 +101,88 @@
 
 </section>
 
-<section class="contact text-center" id="contact">
+<section class="contact text-center collapse" id="contact">
     <h2 class="display-6"> Get in touch with me today!</h2>
-    <p class="lead pb-3">Send me a message.  I'd love to talk with you about my experience and how I can contribute to your team!</p>
-    <a href="#" class="btn btn-primary btn-lg mb-4" role="button">Contact Me</a>
+    <p class="lead pb-3">I'd love to talk with you about my experience and how I can contribute to your team!</p>
+    <button type= "button" class= "btn" data-toggle="collapse" href="#contact-me">Contact Me</button>
 </section>
+
+<section class="contact p-4 p-lg-5 text-center collapse" id="contact-me">
+        <div class="my-auto id="my-auto">
+            <h2 class="mb-4">How to Reach Me</h2>
+
+        <ul class="fa-ul mb-4 ml-0">
+            <li id="mail-address">
+                <i class="fas fa-envelope-open mr-2 contact-icons"></i
+                >cbwampler@outlook.com</a>
+            </li>
+            <li>
+            <i class="fas fa-mobile-alt mr-2 contact-icons"></i>(317) 690-0656</li>
+            <li>
+            <i class="fas fa-map-marker-alt mr-2 contact-icons"></i>Carmel, Indiana</li>
+        </ul>
+
+        <p>
+            ...or leave your message below and I will be back to you as soon as
+            possible.
+        </p>
+
+        <form
+            class="contact-form d-flex flex-column align-items-center"
+            action="https://formspree.io/cbwampler@outlook.com"
+            method="POST"
+        >
+            <div class="form-group w-75">
+            <input
+                type="name"
+                class="form-control"
+                placeholder="Name"
+                name="name"
+                required
+            />
+            </div>
+            <div class="form-group w-75">
+            <input
+                type="email"
+                class="form-control"
+                placeholder="Email"
+                name="name"
+                required
+            />
+            </div>
+
+            <div class="form-group w-75">
+            <textarea
+                class="form-control"
+                type="text"
+                placeholder="Message"
+                rows="7"
+                name="name"
+                required
+            ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-submit btn-info w-75">Submit</button>
+        </form>
+        </div>
+</section>
+
 <footer class="footer text-center">
-        <p><b>Carolyn Wampler 2019</b></p>
+        <h4><b>Carolyn Wampler -- 2019</b></h4>
+<div class="row">
+        <i class="fa fa-linkedin-square"></i>
+
     </div>
 </footer>
 
+<script
+    defer
+    src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
+    integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
+    crossorigin="anonymous"
+    ></script>  
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>   
 </body>
 </html>

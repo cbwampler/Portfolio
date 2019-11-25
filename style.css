@@ -8,31 +8,25 @@ body{
     background-image: url(https://images.unsplash.com/photo-1524785281156-c3c68d1e03c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80);  
     background-repeat: no-repeat;
     background-position: center;
-    padding: 3vw;
     margin-bottom:0;
+    height:100%; 
 }
-
 #name{
-    justify-content: center;
-    align-items:center;
-    height:100%;
     color:whitesmoke;
     text-shadow: 2px 2px 2px #0a0a0a;
-    font-size:6vw;
+    font-size:4vw;
     font-family: 'notable', 'sans-serif';
-    padding: 3vw; 
 }
 
 #title{
     justify-content: center;
-    height:100%;
     color:whitesmoke;
     text-shadow: 2px 2px 2px #0a0a0a;
     font-family: 'Parisienne', cursive;
-    font-size:2.2vw;
-    max-width: 75%;
+    font-size: 2vw;
     text-align:center;
     margin:auto;
+    padding: 1vw;
 }
 .projects{
     justify-content: center;
@@ -42,6 +36,11 @@ body{
     padding: 3vw;
 }
 
+.card-text{
+    font-size: .75vw;
+    font-family: 'Sansita', 'sans-serif';
+}
+
 .navbar-container{
     height: auto;
     background-color:#5261FE;
@@ -49,14 +48,16 @@ body{
     color: whitesmoke;
 }
 
-.container-fluid {
+.container{
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
 
 }
 .btn{
-    background-color:#5261FE;  
+    background-color:#B29BFF;
+    font-family: 'Sansita', 'sans-serif';
+    color: whitesmoke;
 }
 
 .about{
@@ -67,28 +68,29 @@ body{
 
 .contact{
     background-color: #A6E8F7;
+    margin-bottom:0;
     padding: 3vw;
 }
 .img-fluid {
-    display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 20%;
+    width: 40%;
     justify-content: center;
     align-items: center;
-    border-radius: 50%;
+    border-radius: 20%;
+    padding: 1vw;
 }
 
 .footer {
     margin-bottom: 0;
     width: 100%;
     height: 100%;
-    font-size: 2vw;
+    /* font-size: 2vw; */
     justify-content: center;
     align-items: center;
     color:whitesmoke;
     text-shadow: 2px 2px 2px #0a0a0a;
-    background-image: url(https://images.unsplash.com/photo-1524785281156-c3c68d1e03c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80);  
+    background-color:#5261FE;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
