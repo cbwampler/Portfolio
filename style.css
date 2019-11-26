@@ -8,6 +8,7 @@ body{
     background-image: url(https://images.unsplash.com/photo-1524785281156-c3c68d1e03c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80);  
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     margin-bottom:0;
     height:100%; 
 }
@@ -34,7 +35,15 @@ body{
     background-color:#B29BFF;
     margin: 0;
     padding: 3vw;
+    font-size: .75vw;
+    font-family: 'Sansita', 'sans-serif';
 }
+
+.display{
+    font-size: 2vw;
+    font-family: 'Sansita', 'sans-serif'; 
+}
+
 
 .card-text{
     font-size: .75vw;
@@ -44,8 +53,8 @@ body{
 .navbar-container{
     height: auto;
     background-color:#5261FE;
-    font-size:1rem;
     color: whitesmoke;
+    font-family: 'Sansita', 'sans-serif';
 }
 
 .container{
@@ -64,6 +73,7 @@ body{
     background-color: #A6E8F7;
     margin:auto;
     padding: 3vw;
+    font-family: 'Sansita', 'sans-serif';
 }
 
 .contact{
@@ -71,6 +81,7 @@ body{
     margin-bottom:0;
     padding: 3vw;
 }
+
 .img-fluid {
     margin-left: auto;
     margin-right: auto;
@@ -85,14 +96,13 @@ body{
     margin-bottom: 0;
     width: 100%;
     height: 100%;
-    /* font-size: 2vw; */
     justify-content: center;
     align-items: center;
     color:whitesmoke;
-    text-shadow: 2px 2px 2px #0a0a0a;
+    text-shadow: 1px 1px 1px #0a0a0a;
     background-color:#5261FE;
-    background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
     padding: 1vw;
+    font-family: 'Sansita', 'sans-serif';
 }
+

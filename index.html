@@ -13,19 +13,14 @@
 <body>
 <div class="navbar-container">
     <nav class="navbar navbar-expand-md navbar-light" style="color: whitesmoke;">
-            <a class="navbar-brand" href="#" style="color:whitesmoke;">Welcome to My Portfolio</a>
-                    <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#projects">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="img/CBWamplerResume.pdf">Resume</a>
-                </li>
-            </ul>
-            </div>
+        <a class="navbar-brand" href="#" style="color:whitesmoke;">Welcome to My Portfolio</a>
+            <div class="navbar-nav ml-auto">
+                    <form class="form-inline">
+                        <a href="https://www.linkedin.com/in/carolyn-wampler-379606b4/" target="_blank" data-toggle="tooltip" data-placement="top" title="Check Out My LinkedIn Profile"><i class="fab fa-linkedin" style="font-size:3vw; color:whitesmoke; padding:0 .5vw;"></i> </a>
+                        <a href="https://github.com/cbwampler/" target="_blank" data-toggle="tooltip" data-placement="top" title="Check Out My Github Projets"><i class="fab fa-github" style="font-size:3vw; color: whitesmoke; padding: 0 .5vw;"></i></a>
+                        <a href="img/CBWamplerResume.pdf" target="_blank" data-toggle="tooltip" data-placement="top" title="Check Out My Github Projets"><button type="button" class="btn btn-xs btn-outline-secondary" role="button"<a>Resume</button></a>
+                    </form> 
+        </div>
     </nav>  
 </div>
 <header class="jumbotron jumbotron">
@@ -35,18 +30,13 @@
             <img class="img-fluid" src="img/wamplerCarolyn.jpg" alt="">
 <br>
 <br>
-<div class="btn-group" role="group" aria-label="Basic example">
     <button type="button" class="btn btn-primary btn-lg" href="#about" data-toggle="collapse" role="button">About Me</button>
     <button type="button" class="btn btn-primary btn-lg" href="#projects" data-toggle="collapse" role="button">My Projects</button>
-    <button type="button" class="btn btn-primary btn-lg" href="#contact" data-toggle="collapse" role="button">Contact Me</button>
-</div>            
-            <!-- <p><a href="#about" class="btn btn-primary btn-lg" data-toggle="collapse" role="button">About Me</a></p>
-            <p><a href="#projects" class="btn btn-primary btn-lg" data-toggle="collapse" role="button">My Projects</a></p> -->
-        </div>
+    <button type="button" class="btn btn-primary btn-lg" href="#contact" data-toggle="collapse" role="button">Contact Me</button>           
 </header>  
 
 <section id="about" class="about collapse">
-    <h2 class="display-5 text-center">About Me</h2>
+    <h2 class="display text-center">About Me</h2>
     <p class="lead pb-3">
         <ul>
             <li>Over 25 years' experience in the technology field working as a Sofware Test Engineer which has given me exposure to several software and hardware platforms</li>
@@ -55,11 +45,12 @@
             <li>Currently attending Eleven Fifty Academy for Javascript Programming</li>
             <li>Wife to Doug and mother to three children, John, Abbi and Megan</li>
             <li>Hobbies include photography and papercrafting</li>
+            <br>
         <p>For more details of my qualifications, see my attached resume or contact me at the link below</p>   
 </section>
 
 <section id="projects" class="projects collapse">
-        <h2 class="text-center">My Projects</h2> 
+        <h2 class="display text-center">My Projects</h2> 
         <p class="lead pb-3">
             Here are a few projects I have done to show what I have learned:
         </p>
@@ -71,7 +62,7 @@
                     <div class="card-body">
                         <h5 class="card-title">CSS Creature</h5>
                         <p class="card-text">Our first project was to create a simple HTML/CSS drawing.</p>
-                        <a href="https://codepen.io/cwampler/full/JjjWzMj" class="btn btn-primary">Go to my CSS Project</a>
+                        <a href="https://codepen.io/cwampler/full/JjjWzMj" target="_blank" class="btn btn-primary">Go to my CSS Project</a>
                     </div>
                 </div>
             </div>   
@@ -82,18 +73,18 @@
                     <div class="card-body">
                     <h5 class="card-title">Tutorial Page</h5>
                     <p class="card-text">Our second project was to create a tutorial page about JavaScript</p>
-                    <a href="https://cbwampler.github.io/Tutorial/" class="btn btn-primary">Go to my Tutorial Page</a>
+                    <a href="https://cbwampler.github.io/Tutorial/"  target="_blank" class="btn btn-primary">Go to my Tutorial Page</a>
                     </div>
                 </div>
             </div>
 
             <div class="col-md-4">
                 <div class="card" style="width: 18rem; height:25rem;">
-                    <img class="card-img-top" src="img/coming_soon.png " alt="My API Project">
+                    <img class="card-img-top" src="img/API_Project.png" target="_blank" alt="My API Project">
                 <div class="card-body">
                     <h5 class="card-title">API Project</h5>
                     <p class="card-text">Our third, and final, project for the gold badge section was to get date from an API</p>
-                    <a href="" class="btn btn-primary">Go to my API Project</a>
+                    <a href="https://apiproject-13d6c.firebaseapp.com" target="_blank" class="btn btn-primary">Go to my API Project</a>
                     </div>
                 </div>
                 </div>
@@ -102,7 +93,7 @@
 </section>
 
 <section class="contact text-center collapse" id="contact">
-    <h2 class="display-6"> Get in touch with me today!</h2>
+    <h2 class="display"> Get in touch with me today!</h2>
     <p class="lead pb-3">I'd love to talk with you about my experience and how I can contribute to your team!</p>
     <button type= "button" class= "btn" data-toggle="collapse" href="#contact-me">Contact Me</button>
 </section>
@@ -168,11 +159,7 @@
 </section>
 
 <footer class="footer text-center">
-        <h4><b>Carolyn Wampler -- 2019</b></h4>
-<div class="row">
-        <i class="fa fa-linkedin-square"></i>
-
-    </div>
+        <h4>Created by Carolyn Wampler -- JavaScript Part-Time Class -- 2019</h4>
 </footer>
 
 <script
